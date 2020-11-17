@@ -1,0 +1,41 @@
+h1 {
+    color:blue;
+}
+.name{
+    text-align: center;
+    background-color:lightblue;
+    border:dotted;
+    padding:20px;
+    border-width:30px;
+    border-color: lightseagreen;
+}
+.images{
+    border:dashed;
+    border-width: 30px;
+    border-color: limegreen;
+    display:flex;
+    flex-wrap:wrap;
+    background-color: lightblue;
+    justify-content: center;
+}
+.p{
+    color:darkblue;
+}
+.sub{
+    position: relative;
+    
+}
+.sub h2{
+    position: absolute;
+    color:white;
+    opacity: 0;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.sub:hover h2 {
+opacity: 1;
+}
+.sub:hover img{
+    opacity:0.5;
+}
